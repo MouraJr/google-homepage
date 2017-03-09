@@ -1,0 +1,112 @@
+stylesheet-google_page.css
+
+#wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+.header {
+	text-align: right;
+	word-spacing: 17px;
+}
+
+.header a:hover{
+	text-decoration: underline;
+}
+
+a {
+	font: 13px arial;
+	color: grey;
+	text-decoration: none;
+	cursor: auto;
+}
+
+#sign_in {
+    background: rgb(71, 121, 239);
+    border-radius: 6px 6px;
+    padding: .6em 1em;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: auto;
+    word-spacing: 1px;
+    right: 0px;
+}
+
+.main {
+	position: absolute;
+	width: 100%;
+    top: 150px;
+    text-align: center;
+    margin: 50px auto 50px;
+}
+
+.GET-IT {
+	display: block;
+    height: 40px;
+    width: 560px;
+    margin: 0 auto 30px;
+    background-color: white;
+    box-shadow: 0 5px 5px -5px silver;
+    border-color: lightgrey;
+    font-family: arial;
+    font-size: 20px;
+    color: black;
+    font-weight: lighter;
+
+}
+
+.GET-IT[type="text"]:hover {
+	box-shadow: 0px 2px 8px silver;
+    outline: none;
+}
+
+input {
+	color: #757575;
+	font-family: ariel,sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	border: 1px solid #f2f2f2;
+	background-color: #f2f2f2;
+	height: 36px;
+	width: 125px;
+	border-radius: 5%; 
+	margin: 5px;
+}
+
+input[type="submit"]:hover {
+    color: black;
+    border: 0.5px solid #d9d9d9;
+}
+
+#google_logo {
+	height: 100px;
+	margin-bottom: 10px;
+}
+
+.footer {
+	position: absolute;
+	width: 100%;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    min-height: 35px;
+    bottom: 0px;
+    padding: 05px 0;
+    margin-left: -7px;
+    text-align: center;
+    word-spacing: 20px;
+}
+
+.footer a:hover{
+	text-decoration: underline;
+}
+
+.right {
+	float: right;
+	margin-right: 40px;
+}
+
+.left {
+    float: left;
+    margin-left: 40px;
+}
