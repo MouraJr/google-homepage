@@ -1,5 +1,9 @@
 stylesheet-google_page.css
 
+body {
+	overflow: hidden;
+}
+
 #wrapper {
 	height: 100%;
 	width: 100%;
